@@ -1,0 +1,19 @@
+.all-container {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    border: 1px solid;
+    text-align: center;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 50px;
+}
